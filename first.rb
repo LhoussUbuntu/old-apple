@@ -1,7 +1,7 @@
 def test(number)
-  if number.positive?
+  if number > 0
     puts 'positive number'
-  elsif number.negative?
+  elsif number < 0
     puts 'negetive number'
   else
     puts 'zero number'
